@@ -1,35 +1,23 @@
-# LDA 文本主题分析教学演示 - 依赖清单
-# Python 版本: >= 3.8
+# LDA教学演示 - Streamlit Cloud精简依赖
+# 版本要求宽松，确保兼容性
 
 # Web框架
-streamlit>=1.28.0
+streamlit
 
 # 数据处理
-pandas>=2.0.0
-numpy>=1.24.0
+pandas
+numpy
 
 # 可视化
-matplotlib>=3.7.0
-plotly>=5.15.0
+matplotlib
+plotly
 
-# LDA主题建模核心
-scikit-learn>=1.3.0
-gensim>=4.3.0
+# LDA核心
+scikit-learn
+gensim
 
 # 中文分词
-jieba>=0.42.1
+jieba
 
 # 词云
-wordcloud>=1.9.0
-
-# 交互式LDA可视化
-pyLDAvis>=3.4.0
-
-# 页面导航(可选)
-# streamlit-extras>=0.4.0  # 如需要更多组件
-
-# 进度条显示
-progressbar2>=4.2.0
-
-# 数据集下载
-requests>=2.31.0
+wordcloud
